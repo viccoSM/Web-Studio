@@ -1,0 +1,96 @@
+/*!
+ * Bootstrap v5.0.2 (https://getbootstrap.com/)
+ * Copyright 2011-2021 The Bootstrap Authors
+ * Copyright 2011-2021 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
+ */
+
+// scss-docs-start import-stack
+// Configuration
+@import "functions";
+@import "variables";
+@import "mixins";
+@import "utilities";
+
+// Layout & components
+@import "root";
+@import "reboot";
+@import "type";
+@import "images";
+@import "containers";
+@import "grid";
+@import "tables";
+@import "forms";
+@import "buttons";
+@import "transitions";
+@import "dropdown";
+@import "button-group";
+@import "nav";
+@import "navbar";
+@import "card";
+@import "accordion";
+@import "breadcrumb";
+@import "pagination";
+@import "badge";
+@import "alert";
+@import "progress";
+@import "list-group";
+@import "close";
+@import "toasts";
+@import "modal";
+@import "tooltip";
+@import "popover";
+@import "carousel";
+@import "spinners";
+@import "offcanvas";
+
+// Helpers
+@import "helpers";
+
+// Utilities
+@import "utilities/api";
+// scss-docs-end import-stack
+
+.App {
+  font-family: Helvetica, sans-serif;
+  h1 {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 54px;
+  }
+}
+
+.hero {
+  position: relative;
+  height: 100vh;
+  nav {
+    position: absolute;
+    z-index: 3;
+    left: 5%;
+  }
+  .text {
+    z-index: 2;
+    position: absolute;
+    bottom: 50%;
+  }
+  .slider {
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+}
+
+@media only screen and (max-width: 790px) {
+  .hero {
+    h1 {
+      font-size: 48px;
+    }
+    nav {
+      left: 0;
+    }
+    .text {
+      color: white;
+      top: 25%;
+    }
+  }
+}
