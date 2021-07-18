@@ -1,6 +1,16 @@
 {
-  "hero": {
-    "id": 1,
-    "imgUrl": "/images/Hero_1.jpg"
-  }
+  "hero": [
+    {
+      "id": 1,
+      "imgUrl": "/images/Hero_1.jpg"
+    },
+    {
+      "id": 2,
+      "imgUrl": "/images/Hero_2.jpg"
+    },
+    {
+      "id": 3,
+      "imgUrl": "/images/about.jpg"
+    }
+  ]
 }

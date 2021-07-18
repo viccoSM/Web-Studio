@@ -1,6 +1,17 @@
 .img-wrapper {
   width: 100%;
+  display: flex;
+  flex-wrap: nowrap;
+  overflow: hidden;
   img {
     height: 90vh;
+    // flex-shrink: 0;
+    .img-slide {
+      opacity: 0;
+      transition: ease-in-out 0.7s;
+    }
+    .img-animate {
+      opacity: 1;
+    }
   }
 }

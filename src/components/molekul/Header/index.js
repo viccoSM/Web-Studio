@@ -5,7 +5,7 @@ import Hamburger from "../../../assets/images/Hamburger.svg";
 
 const Header = () => {
   return (
-    <nav className="container navbar-expand-lg d-flex">
+    <nav className="container navbar-expand-lg d-flex justify-content-between">
       <div className="container-fluid d-flex justify-content-between">
         <Logo href="/" />
         <Button className="btn navbar-toggler">
