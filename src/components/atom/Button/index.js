@@ -60,6 +60,7 @@ Button.propTypes = {
   isSecondary: propTypes.bool,
   hasShadow: propTypes.bool,
   onClick: propTypes.func,
+  isExternal: propTypes.bool,
 };
 
 export default Button;

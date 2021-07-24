@@ -1,0 +1,9 @@
+.dots {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: white;
+  &.dots-active {
+    background-color: #6d6c6c;
+  }
+}

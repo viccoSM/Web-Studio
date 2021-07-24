@@ -1,6 +1,6 @@
 import React from "react";
-import { Button } from "../../atom";
-import { Header, Slider } from "../../molekul";
+import { Button, Dots } from "../../atom";
+import { Header, Package, Slider } from "../../molekul";
 
 const Hero = (props) => {
   return (
@@ -19,6 +19,9 @@ const Hero = (props) => {
           <div className="slider col-md-6">
             <Slider data={props.data} />
           </div>
+        </div>
+        <div className="packages">
+          <Package />
         </div>
       </div>
     </div>

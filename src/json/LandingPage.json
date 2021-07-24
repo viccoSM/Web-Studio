@@ -12,5 +12,37 @@
       "id": 3,
       "imgUrl": "/images/about.jpg"
     }
+  ],
+  "packages": [
+    {
+      "id": 1,
+      "name": "Photography"
+    },
+    {
+      "id": 2,
+      "name": "Videgraphy"
+    },
+    {
+      "id": 3,
+      "name": "Complete"
+    }
+  ],
+  "portfolio": [
+    {
+      "name": "Photography",
+      "image": [
+        {
+          "name": "Weeding",
+          "imgUrl": "/images/photgraphy_1.jpg"
+        },
+        {
+          "name": "Travel",
+          "imgUrl": "/images/photgraphy_2.jpg"
+        }
+      ]
+    },
+    {
+      "name": "Videgraphy"
+    }
   ]
 }
