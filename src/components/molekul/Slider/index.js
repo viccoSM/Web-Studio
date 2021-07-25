@@ -21,10 +21,8 @@ const Slider = ({ data }) => {
 
   return (
     <div className="slider">
-      <img
-        className={slideIndex + 1 ? "img-slide img-animate" : "img-slide"}
-        src={data[slideIndex].imgUrl}
-      />
+      <img className="img-slide img-animate" src={data[slideIndex].imgUrl} />
+
       <div className="dots-slide d-flex">
         {Array.from({ length: data.length }).map((item, index) => {
           return (

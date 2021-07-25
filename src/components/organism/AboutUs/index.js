@@ -53,12 +53,39 @@ const AboutUs = (props) => {
               </div>
             </div>
           </div>
-          <div className="col-md-6 img ">
+          <div className="col-md-6 img mb-5">
             <div className="img-wrapper">
               <img src={Photography} alt="" />
             </div>
             <div className="img-wrapper potrait">
               <img src={Photography2} alt="" />
+            </div>
+          </div>
+        </div>
+        <div className="row mt-5">
+          <div className="col-md-6 img">
+            <div className="img-wrapper">
+              <img src={About} alt="" />
+            </div>
+          </div>
+          <div className="col-md-6 desc align-self-center mt-5">
+            <div className="content">
+              <div className="title">
+                <h2 className="fw-bold">Videography</h2>
+              </div>
+              <div className="body">
+                <p>
+                  Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
+                  diam nonumy eirmod tempor invidunt ut labore et dolore magna
+                  aliquyam erat, sed diam voluptua. At vero eos et accusam et
+                  justo duo dolores et ea rebum. Stet clita kasd gubergren, no
+                  sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem
+                  ipsum dolor sit amet, consetetur{" "}
+                </p>
+                <Button className="btn btn-lg" isSecondary>
+                  View All
+                </Button>
+              </div>
             </div>
           </div>
         </div>
